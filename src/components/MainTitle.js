@@ -2,6 +2,8 @@ import { Box } from "@mui/material";
 import { styled } from "@mui/system";
 
 const MainTitle = styled(Box)({
+  display: "flex",
+  justifyContent: "center",
   color: "var(--General-Black, #2D3436)",
   textAlign: "center",
 
