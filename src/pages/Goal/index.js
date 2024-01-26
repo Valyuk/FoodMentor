@@ -7,10 +7,10 @@ import Main from "../../components/Main";
 import MainTitle from "../../components/MainTitle";
 import { styled } from "@mui/system";
 import { useNavigate } from "react-router-dom";
-import { Girl1 } from "../../assets/girl1";
-import { Girl2 } from "../../assets/girl2";
-import { Girl3 } from "../../assets/girl3";
-import { Girl4 } from "../../assets/girl4";
+import { Girl1 } from "../../assets/Girl1";
+import { Girl2 } from "../../assets/Girl2";
+import { Girl3 } from "../../assets/Girl3";
+import { Girl4 } from "../../assets/Girl4";
 
 const StyledTypography = styled(Typography)({
   width: "83.394px",
@@ -22,6 +22,7 @@ const StyledTypography = styled(Typography)({
   fontWeight: "500",
   lineHeight: "22.933px",
   letterSpacing: "0.208px",
+  textTransform: "none",
 });
 
 const Goal = () => {

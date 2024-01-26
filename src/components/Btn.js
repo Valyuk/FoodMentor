@@ -1,7 +1,7 @@
-import styled from "@emotion/styled/types/base";
-import { Input } from "@mui/material";
+import { styled } from "@mui/system";
+import { Button } from "@mui/material";
 
-const RadioInput = styled(Input)({
+const Btn = styled(Button)({
   display: "flex",
   width: "172px",
   height: "60px",
@@ -15,4 +15,4 @@ const RadioInput = styled(Input)({
   background: "var(--Background-Light, #FFF);})",
 });
 
-export default RadioInput;
+export default Btn;
