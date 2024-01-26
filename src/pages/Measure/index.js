@@ -1,10 +1,10 @@
 import { useState } from "react";
-import FlexBox from "../../components/FlexBetween";
-import Title from "../../components/Title";
-import Text from "../../components/Text";
-import { Button, Box, Typography } from "@mui/material";
-import TextInput from "../../components/Input";
 import { useNavigate } from "react-router-dom";
+import { Button, Box, Typography } from "@mui/material";
+import FlexBetween from "../../components/general/FlexBetween";
+import Title from "../../components/general/Title";
+import Text from "../../components/general/Text";
+import TextInput from "../../components/secondPage/TextInput";
 
 const Measure = () => {
   const navigate = useNavigate();
@@ -39,10 +39,10 @@ const Measure = () => {
 
   return (
     <>
-      <FlexBox>
+      <FlexBetween>
         <Title>Measure Yourself</Title>
         <Text>What are you height and body weight?</Text>
-      </FlexBox>
+      </FlexBetween>
       <Box
         sx={{
           display: "flex",
