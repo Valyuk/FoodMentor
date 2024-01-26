@@ -1,8 +1,8 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import { useNavigate } from "react-router-dom";
-import { Back } from "../../assets/Back";
-import { Logo } from "../../assets/Logo";
+import { Back } from "../../assets/nav/Back";
+import { Logo } from "../../assets/nav/Logo";
 
 const Navbar = () => {
   const navigate = useNavigate();

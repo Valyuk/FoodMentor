@@ -1,16 +1,16 @@
-import FlexBox from "../../components/FlexBetween";
-import Title from "../../components/Title";
-import Text from "../../components/Text";
-import Item from "../../components/Item";
 import { Box, Grid, Typography } from "@mui/material";
-import Main from "../../components/Main";
-import MainTitle from "../../components/MainTitle";
-import { styled } from "@mui/system";
 import { useNavigate } from "react-router-dom";
-import { Girl1 } from "../../assets/Girl1";
-import { Girl2 } from "../../assets/Girl2";
-import { Girl3 } from "../../assets/Girl3";
-import { Girl4 } from "../../assets/Girl4";
+import { styled } from "@mui/system";
+import { Girl1 } from "../../assets/firstPage/Girl1";
+import { Girl2 } from "../../assets/firstPage/Girl2";
+import { Girl3 } from "../../assets/firstPage/Girl3";
+import { Girl4 } from "../../assets/firstPage/Girl4";
+import FlexBetween from "../../components/general/FlexBetween";
+import Title from "../../components/general/Title";
+import Text from "../../components/general/Text";
+import Item from "../../components/firstPage/Item";
+import Main from "../../components/general/Main";
+import MainTitle from "../../components/firstPage/MainTitle";
 
 const StyledTypography = styled(Typography)({
   width: "83.394px",
@@ -29,16 +29,16 @@ const Goal = () => {
   const navigate = useNavigate();
   return (
     <Box>
-      <FlexBox>
+      <FlexBetween>
         <Title>The Goal</Title>
         <Text>
           <Box>Focus on the health benefits you need</Box>
           <Box>Balanced nutrition will let you achieve them</Box>
         </Text>
-      </FlexBox>
+      </FlexBetween>
       <Main>
         <MainTitle>What are your goals?</MainTitle>
-        <Grid container sx={{ maxWidth: "360px" }}>
+        <Grid container sx={{ maxWidth: "360px", marginTop: "15px" }}>
           <Grid
             onClick={() => navigate("/measure")}
             item

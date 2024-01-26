@@ -13,7 +13,6 @@ const MainTitle = styled(Box)({
   fontWeight: "700",
   lineHeight: "24px",
   letterSpacing: "0.2px",
-  marginBottom: "15px",
 });
 
 export default MainTitle;

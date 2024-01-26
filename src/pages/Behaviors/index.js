@@ -1,60 +1,60 @@
-import FlexBox from "../../components/FlexBetween";
-import Title from "../../components/Title";
-import Text from "../../components/Text";
-import Main from "../../components/Main";
 import { useNavigate } from "react-router-dom";
 import { Grid, Box, Button, Typography } from "@mui/material";
-import Btn from "../../components/Btn";
-import TextBtn from "../../components/TextBtn";
-import { Moon } from "../../assets/Moon";
-import { Donut } from "../../assets/Donut";
-import { Soda } from "../../assets/Soda";
-import { Salt } from "../../assets/Salt";
-import { Pizza } from "../../assets/Pizza";
-import { Cross } from "../../assets/Cross";
+import { Moon } from "../../assets/thirdPage/Moon";
+import { Donut } from "../../assets/thirdPage/Donut";
+import { Soda } from "../../assets/thirdPage/Soda";
+import { Salt } from "../../assets/thirdPage/Salt";
+import { Pizza } from "../../assets/thirdPage/Pizza";
+import { Cross } from "../../assets/thirdPage/Cross";
+import Btn from "../../components/thirdPage/Btn";
+import TextBtn from "../../components/thirdPage/TextBtn";
+import FlexBetween from "../../components/general/FlexBetween";
+import Title from "../../components/general/Title";
+import Text from "../../components/general/Text";
+import Main from "../../components/general/Main";
 
 const Behaviors = () => {
   const navigate = useNavigate();
   return (
     <>
-      <FlexBox>
+      <FlexBetween>
         <Title>Destructive behaviors</Title>
         <Text>We all have them! Which are yours?</Text>
-      </FlexBox>
+      </FlexBetween>
       <Main>
         <Grid container sx={{ maxWidth: "360px" }}>
           <Grid item sx={{ margin: "0 15px 15px 0px" }}>
-            <Btn onClick={() => navigate("/exercise")}>
+            <Btn disabled>
               <Moon />
               <TextBtn>I don't rest enough</TextBtn>
             </Btn>
           </Grid>
           <Grid item>
-            <Btn onClick={() => navigate("/exercise")}>
+            <Btn disabled>
               <Donut />
               <TextBtn>I have a sweet tooth</TextBtn>
             </Btn>
           </Grid>
           <Grid item sx={{ marginRight: "15px" }}>
-            <Btn onClick={() => navigate("/exercise")}>
+            <Btn disabled>
               <Soda />
               <TextBtn>I have too much soda</TextBtn>
             </Btn>
           </Grid>
           <Grid item>
-            <Btn onClick={() => navigate("/exercise")}>
+            <Btn disabled>
               <Salt />
               <TextBtn>I eat many salty foods</TextBtn>
             </Btn>
           </Grid>
           <Grid item sx={{ margin: "15px 15px 0px 0px" }}>
-            <Btn onClick={() => navigate("/exercise")}>
+            <Btn disabled>
               <Pizza />
               <TextBtn>I enjoy midnight snacks</TextBtn>
             </Btn>
           </Grid>
           <Grid item sx={{ marginTop: "15px" }}>
-            <Btn onClick={() => navigate("/exercise")}>
+            <Btn disabled>
               <Cross />
               <TextBtn>None of the above</TextBtn>
             </Btn>
@@ -62,7 +62,7 @@ const Behaviors = () => {
         </Grid>
         <Box>
           <Button
-            disabled
+            onClick={() => navigate("/exercise")}
             sx={{
               display: "flex",
               width: "360px",
