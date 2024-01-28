@@ -20,7 +20,7 @@ const Navbar = () => {
         <Back />
         <Logo />
         <Typography
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/FoodMentor")}
           variant='h1'
           sx={{
             color: "#374234",

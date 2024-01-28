@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Goal />} />
+        <Route path='/FoodMentor' element={<Goal />} />
         <Route path='/measure' element={<Measure />} />
         <Route path='/behaviors' element={<Behaviors />} />
         <Route path='/exercise' element={<Exercise />} />
