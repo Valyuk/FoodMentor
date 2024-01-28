@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/FoodMentor/static/css/main.781ce420.css",
-    "main.js": "/FoodMentor/static/js/main.836f5e8f.js",
+    "main.js": "/FoodMentor/static/js/main.a9d9d494.js",
     "index.html": "/FoodMentor/index.html",
     "main.781ce420.css.map": "/FoodMentor/static/css/main.781ce420.css.map",
-    "main.836f5e8f.js.map": "/FoodMentor/static/js/main.836f5e8f.js.map"
+    "main.a9d9d494.js.map": "/FoodMentor/static/js/main.a9d9d494.js.map"
   },
   "entrypoints": [
     "static/css/main.781ce420.css",
-    "static/js/main.836f5e8f.js"
+    "static/js/main.a9d9d494.js"
   ]
 }
