@@ -16,7 +16,7 @@ Node.js: https://nodejs.org/ npm: https://www.npmjs.com/
 
 ### Installation
 
-Clone the repository: git clone https://github.com/your-username/food_mentor.git
+Clone the repository: git clone https://github.com/Valyuk/FoodMentor.git
 
 Change into the project directory: cd food_mentor
 
