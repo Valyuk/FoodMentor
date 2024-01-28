@@ -7,17 +7,15 @@ import Measure from "./pages/Measure";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Goal />} />
-          <Route path='/measure' element={<Measure />} />
-          <Route path='/behaviors' element={<Behaviors />} />
-          <Route path='/exercise' element={<Exercise />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Goal />} />
+        <Route path='/measure' element={<Measure />} />
+        <Route path='/behaviors' element={<Behaviors />} />
+        <Route path='/exercise' element={<Exercise />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
