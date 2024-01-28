@@ -4,7 +4,10 @@ import { styled } from "@mui/system";
 const Item = styled(Button)({
   width: "172px",
   height: "172px",
+  spacing: "1",
+  textAlign: "center",
   flexShrink: "0",
+  padding: 0,
 
   borderRadius: "20.848px",
   border: "1.042px solid var(--Separator-Light, #E1E1E1)",

@@ -24,4 +24,6 @@ Install dependencies: npm install
 
 ### Usage
 
-npm start Open http://localhost:3000 to view it in the browser.
+npm start
+
+Open http://localhost:3000 to view it in the browser.
