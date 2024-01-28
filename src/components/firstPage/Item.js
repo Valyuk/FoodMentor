@@ -7,7 +7,7 @@ const Item = styled(Button)({
   spacing: "1",
   textAlign: "center",
   flexShrink: "0",
-  padding: 0,
+  padding: "0",
 
   borderRadius: "20.848px",
   border: "1.042px solid var(--Separator-Light, #E1E1E1)",
